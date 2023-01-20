@@ -1,1 +1,2 @@
-# chooser
+# Random Item Chooser
+This is a simple project that I have been working to kinda kick start my python programing career.  When I was dating my now wife during the Christmas time we were struggling to figure out what Christmas movie to watch.  I decided to build something to automate that selection.   It has now morphed into more of a what are we doing, where are we eating, what show, movie or video game am I playing tool.   
