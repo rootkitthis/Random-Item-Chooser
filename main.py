@@ -1,16 +1,18 @@
+#Modules being imported
 from random import choice
+
+#Takes input from user to know how many items we will be wanting to randomly choose from
+max_length = int(input("Enter the number of how many items to choose from: "))
 
 picker = []
 
-#to change how many inputs
-max_length = int(input("Enter the number of how many items to choose from: "))
-
-
+#Takes input from user for what they want to randomly choose and stores them in strings
 while len(picker) < max_length:
-    thing = input('Suggested Movie/TV Show/Video Game/Task/Restaurant: ')
+    thing = input('Enter items to choose from: ')
     if thing not in picker:
         picker.append(thing)
         continue
 
-print('Suggested Movie/TV Show/Video Game/Task/Restaurant that we are going to do:\n'
+print('The chooser has chosen for you:\n'
 +choice(picker))
+
